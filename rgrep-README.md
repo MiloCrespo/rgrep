@@ -1,5 +1,7 @@
 # RGREP
 
+!![PENGUIN](pingu.png)
+
 A recursive Version of grep that searches through the entire
 directory trees. It finds the thing you are looking for. 
 
@@ -23,3 +25,4 @@ Implements custom strcat since xv6's user library doesn't have it
 
 Side Note: 
 Buffer size: 1024 bytes - Not 512 :'(
+
