@@ -25,4 +25,4 @@ Implements custom strcat since xv6's user library doesn't have it
 Side Note: 
 Buffer size: 1024 bytes - Not 512 :'(
 
-![PENGUIN](ping.png)
+![PENGUIN](pingu.png)
