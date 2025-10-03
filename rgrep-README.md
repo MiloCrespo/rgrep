@@ -1,7 +1,5 @@
 # RGREP
 
-!![PENGUIN](pingu.png)
-
 A recursive Version of grep that searches through the entire
 directory trees. It finds the thing you are looking for. 
 
@@ -16,6 +14,7 @@ it opens it, reads all the entries, and recursively searches
 subdirectories. Files get searched using the same line-by-line 
 matching as regular grep.
 
+# -V 
 Flag: 
 Show all lines that DON'T start with a comment '-v'
 rgrep [-v] pattern [directory]
@@ -26,3 +25,4 @@ Implements custom strcat since xv6's user library doesn't have it
 Side Note: 
 Buffer size: 1024 bytes - Not 512 :'(
 
+![PENGUIN](ping.png)
