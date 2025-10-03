@@ -19,10 +19,32 @@ Flag:
 Show all lines that DON'T start with a comment '-v'
 rgrep [-v] pattern [directory]
 
+
+# Extras
 Note: 
 Implements custom strcat since xv6's user library doesn't have it
 
 Side Note: 
 Buffer size: 1024 bytes - Not 512 :'(
+
+
+# TESTING
+Tests:
+To test I did wget on the time-machine.txt and the used fogOS file.
+My series of tests would run as follows
+
+To test flags:
+
+rgrep fog
+rgrep -v fog
+
+To Test Case Sensitivity: 
+
+rgrep save
+rgrep Save
+
+This works when you do the time-machine.txt rm tm.txt and 
+add to Makefile. 
+
 
 ![PENGUIN](pingu.png)
